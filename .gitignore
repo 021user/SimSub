@@ -1,0 +1,24 @@
+# CLion / CMake
+cmake-build-*/
+build-*/
+CMakeFiles/
+CMakeCache.txt
+*.pdb
+*.obj
+*.ilk
+*.idb
+*.user
+.idea/
+
+# Binaries
+*.exe
+*.dll
+*.lib
+*.exp
+
+# Whisper models (NE PAS PUSHER)
+third_party/whisper.cpp/models/*.bin
+third_party/whisper.cpp/models/*.gguf
+
+# Artefacts diverses
+*.log

@@ -1,0 +1,9 @@
+[submodule "third_party/portaudio"]
+	path = third_party/portaudio
+	url = https://github.com/PortAudio/portaudio.git
+[submodule "build/third_party/whisper.cpp"]
+	path = build/third_party/whisper.cpp
+	url = https://github.com/ggerganov/whisper.cpp.git
+[submodule "third_party/whisper.cpp"]
+	path = third_party/whisper.cpp
+	url = https://github.com/ggerganov/whisper.cpp.git

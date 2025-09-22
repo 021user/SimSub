@@ -1,0 +1,710 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/ggml-cpu.dll"
+		},
+		{
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu.lib"
+		},
+		{
+			"path" : "bin/ggml-cpu.pdb"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"ggml_add_backend_library",
+			"ggml_add_cpu_backend_variant_impl",
+			"install",
+			"target_link_libraries",
+			"add_compile_options",
+			"include",
+			"target_compile_options",
+			"disable_msvc_warnings",
+			"target_compile_definitions",
+			"add_compile_definitions",
+			"target_include_directories",
+			"target_compile_features",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"third_party/whisper.cpp/ggml/src/CMakeLists.txt",
+			"third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt",
+			"third_party/whisper.cpp/cmake/build-info.cmake",
+			"third_party/whisper.cpp/CMakeLists.txt",
+			"third_party/whisper.cpp/ggml/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 372,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 243,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 245,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 2
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 93,
+				"parent" : 6
+			},
+			{
+				"file" : 2,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 45,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 589,
+				"parent" : 1
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 399,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 393,
+				"parent" : 12
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 76,
+				"parent" : 1
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 590,
+				"parent" : 1
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 252,
+				"parent" : 2
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 253,
+				"parent" : 2
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 489,
+				"parent" : 1
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 74,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 181,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 146,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 249,
+				"parent" : 2
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 1
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 52,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 46,
+				"parent" : 8
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 588,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -std:c11 -MDd"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "/utf-8"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "/arch:AVX"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "/wd4005"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "/wd4244"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "/wd4267"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "/wd4305"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "/wd4566"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "/wd4996"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "/wd4702"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-openmp"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 15,
+					"define" : "GGML_AVX"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "GGML_BACKEND_BUILD"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "GGML_BACKEND_SHARED"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "GGML_SCHED_MAX_COPIES=4"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "GGML_SHARED"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "GGML_USE_CPU_REPACK"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "GGML_USE_OPENMP"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "_XOPEN_SOURCE=600"
+				},
+				{
+					"define" : "ggml_cpu_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 23,
+					"path" : "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/ggml/src/.."
+				},
+				{
+					"backtrace" : 24,
+					"path" : "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/ggml/src/."
+				},
+				{
+					"backtrace" : 24,
+					"path" : "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/ggml/src/ggml-cpu"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/ggml/src/../include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					25
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				6,
+				25
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "/utf-8"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "/arch:AVX"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "/wd4005"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "/wd4244"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "/wd4267"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "/wd4305"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "/wd4566"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "/wd4996"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "/wd4702"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-openmp"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 15,
+					"define" : "GGML_AVX"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "GGML_BACKEND_BUILD"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "GGML_BACKEND_SHARED"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "GGML_SCHED_MAX_COPIES=4"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "GGML_SHARED"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "GGML_USE_CPU_REPACK"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "GGML_USE_OPENMP"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "_XOPEN_SOURCE=600"
+				},
+				{
+					"define" : "ggml_cpu_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 23,
+					"path" : "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/ggml/src/.."
+				},
+				{
+					"backtrace" : 24,
+					"path" : "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/ggml/src/."
+				},
+				{
+					"backtrace" : 24,
+					"path" : "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/ggml/src/ggml-cpu"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/ggml/src/../include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					25
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				4,
+				8,
+				10,
+				12,
+				17,
+				19,
+				22,
+				24,
+				26
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "ggml-base::@c41768f2b5c913c772b8"
+		}
+	],
+	"id" : "ggml-cpu::@c41768f2b5c913c772b8",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 4,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/SimuSub"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:X86 /debug /INCREMENTAL",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "third_party\\whisper.cpp\\ggml\\src\\ggml-base.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "ggml-cpu",
+	"nameOnDisk" : "ggml-cpu.dll",
+	"paths" : 
+	{
+		"build" : "third_party/whisper.cpp/ggml/src",
+		"source" : "third_party/whisper.cpp/ggml/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				17,
+				19,
+				22,
+				24,
+				25,
+				26
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				5,
+				7,
+				9,
+				11,
+				13,
+				14,
+				15,
+				16,
+				18,
+				20,
+				21,
+				23
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/ggml-cpu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/repack.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 27,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/repack.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/hbm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 27,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/hbm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/quants.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 27,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/quants.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/traits.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 27,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/traits.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/amx/amx.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 27,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/amx/amx.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/amx/mmq.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 27,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/amx/mmq.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 27,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/ggml-cpu-impl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 27,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 27,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/binary-ops.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/binary-ops.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 27,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/unary-ops.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/unary-ops.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 27,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/simd-mappings.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 27,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/vec.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/vec.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 27,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/ops.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/ops.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/arch/x86/quants.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 1,
+			"path" : "third_party/whisper.cpp/ggml/src/ggml-cpu/arch/x86/repack.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

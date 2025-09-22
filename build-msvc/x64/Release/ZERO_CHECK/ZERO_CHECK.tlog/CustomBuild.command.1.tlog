@@ -1,0 +1,10 @@
+^C:\USERS\ESPID\CLIONPROJECTS\SIMUSUB\BUILD-MSVC\CMAKEFILES\665B0A620D761507E0A96EC7B4B3C95F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/espid/CLionProjects/SimuSub -BC:/Users/espid/CLionProjects/SimuSub/build-msvc --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/espid/CLionProjects/SimuSub/build-msvc/SimuSub.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

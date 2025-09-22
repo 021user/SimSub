@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/cmake_install.cmake",
+		"C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/third_party/whisper.cpp/cmake_install.cmake",
+		"C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/third_party/whisper.cpp/ggml/cmake_install.cmake",
+		"C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/third_party/whisper.cpp/ggml/src/cmake_install.cmake",
+		"C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/third_party/whisper.cpp/ggml/src/ggml-cpu/cmake_install.cmake",
+		"C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/third_party/whisper.cpp/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

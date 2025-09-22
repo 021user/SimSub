@@ -1,0 +1,3061 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\System32"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-7.1.1-full_build\\bin"
+        - "C:\\Users\\espid\\.dotnet\\tools"
+        - "C:\\Users\\espid\\AppData\\Roaming\\npm"
+        - "D:\\CLion 2025.2.2\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 22/09/2025 12:38:56.
+      Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.65
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/4.1.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files (x86)/NSIS/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/"
+      - "C:/Users/espid/.dotnet/tools/"
+      - "C:/Users/espid/AppData/Roaming/npm/"
+      - "D:/CLion 2025.2.2/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\System32"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-7.1.1-full_build\\bin"
+        - "C:\\Users\\espid\\.dotnet\\tools"
+        - "C:\\Users\\espid\\AppData\\Roaming\\npm"
+        - "D:\\CLion 2025.2.2\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files (x86)/NSIS/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/"
+      - "C:/Users/espid/.dotnet/tools/"
+      - "C:/Users/espid/AppData/Roaming/npm/"
+      - "D:/CLion 2025.2.2/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/PowerShell/7/lld-link.com"
+      - "C:/Program Files/PowerShell/7/lld-link.exe"
+      - "C:/Program Files/PowerShell/7/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Program Files (x86)/NSIS/lld-link.com"
+      - "C:/Program Files (x86)/NSIS/lld-link.exe"
+      - "C:/Program Files (x86)/NSIS/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/lld-link"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/lld-link.com"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/lld-link.exe"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/lld-link"
+      - "C:/Users/espid/.dotnet/tools/lld-link.com"
+      - "C:/Users/espid/.dotnet/tools/lld-link.exe"
+      - "C:/Users/espid/.dotnet/tools/lld-link"
+      - "C:/Users/espid/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/espid/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/espid/AppData/Roaming/npm/lld-link"
+      - "D:/CLion 2025.2.2/bin/lld-link.com"
+      - "D:/CLion 2025.2.2/bin/lld-link.exe"
+      - "D:/CLion 2025.2.2/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\System32"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-7.1.1-full_build\\bin"
+        - "C:\\Users\\espid\\.dotnet\\tools"
+        - "C:\\Users\\espid\\AppData\\Roaming\\npm"
+        - "D:\\CLion 2025.2.2\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files (x86)/NSIS/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/"
+      - "C:/Users/espid/.dotnet/tools/"
+      - "C:/Users/espid/AppData/Roaming/npm/"
+      - "D:/CLion 2025.2.2/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\System32"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-7.1.1-full_build\\bin"
+        - "C:\\Users\\espid\\.dotnet\\tools"
+        - "C:\\Users\\espid\\AppData\\Roaming\\npm"
+        - "D:\\CLion 2025.2.2\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files (x86)/NSIS/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/"
+      - "C:/Users/espid/.dotnet/tools/"
+      - "C:/Users/espid/AppData/Roaming/npm/"
+      - "D:/CLion 2025.2.2/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt"
+      - "C:/Program Files/PowerShell/7/mt.com"
+      - "C:/Program Files/PowerShell/7/mt.exe"
+      - "C:/Program Files/PowerShell/7/mt"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/mt.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/mt.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/mt"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/mt.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/mt.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Program Files (x86)/NSIS/mt.com"
+      - "C:/Program Files (x86)/NSIS/mt.exe"
+      - "C:/Program Files (x86)/NSIS/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/ProgramData/chocolatey/bin/mt.com"
+      - "C:/ProgramData/chocolatey/bin/mt.exe"
+      - "C:/ProgramData/chocolatey/bin/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/mt"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/mt.com"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/mt.exe"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/mt"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/mt.com"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/mt.exe"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/mt"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/mt.com"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/mt.exe"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/mt"
+      - "C:/Users/espid/.dotnet/tools/mt.com"
+      - "C:/Users/espid/.dotnet/tools/mt.exe"
+      - "C:/Users/espid/.dotnet/tools/mt"
+      - "C:/Users/espid/AppData/Roaming/npm/mt.com"
+      - "C:/Users/espid/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/espid/AppData/Roaming/npm/mt"
+      - "D:/CLion 2025.2.2/bin/mt.com"
+      - "D:/CLion 2025.2.2/bin/mt.exe"
+      - "D:/CLion 2025.2.2/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\System32"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-7.1.1-full_build\\bin"
+        - "C:\\Users\\espid\\.dotnet\\tools"
+        - "C:\\Users\\espid\\AppData\\Roaming\\npm"
+        - "D:\\CLion 2025.2.2\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files (x86)/NSIS/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/"
+      - "C:/Users/espid/.dotnet/tools/"
+      - "C:/Users/espid/AppData/Roaming/npm/"
+      - "D:/CLion 2025.2.2/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\System32"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-7.1.1-full_build\\bin"
+        - "C:\\Users\\espid\\.dotnet\\tools"
+        - "C:\\Users\\espid\\AppData\\Roaming\\npm"
+        - "D:\\CLion 2025.2.2\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:574 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:547 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files (x86)/NSIS/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/"
+      - "C:/Users/espid/.dotnet/tools/"
+      - "C:/Users/espid/AppData/Roaming/npm/"
+      - "D:/CLion 2025.2.2/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/SimuSub/bin/"
+      - "C:/Program Files/SimuSub/sbin/"
+      - "C:/Program Files/SimuSub/"
+    searched_directories:
+      - "C:/Program Files/PowerShell/7/rc.com"
+      - "C:/Program Files/PowerShell/7/rc.exe"
+      - "C:/Program Files/PowerShell/7/rc"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/rc.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/rc.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/rc"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/rc.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/rc.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Program Files (x86)/NSIS/rc.com"
+      - "C:/Program Files (x86)/NSIS/rc.exe"
+      - "C:/Program Files (x86)/NSIS/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/ProgramData/chocolatey/bin/rc.com"
+      - "C:/ProgramData/chocolatey/bin/rc.exe"
+      - "C:/ProgramData/chocolatey/bin/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/rc"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/rc.com"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/rc.exe"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/rc"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/rc.com"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/rc.exe"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/rc"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/rc.com"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/rc.exe"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/rc"
+      - "C:/Users/espid/.dotnet/tools/rc.com"
+      - "C:/Users/espid/.dotnet/tools/rc.exe"
+      - "C:/Users/espid/.dotnet/tools/rc"
+      - "C:/Users/espid/AppData/Roaming/npm/rc.com"
+      - "C:/Users/espid/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/espid/AppData/Roaming/npm/rc"
+      - "D:/CLion 2025.2.2/bin/rc.com"
+      - "D:/CLion 2025.2.2/bin/rc.exe"
+      - "D:/CLion 2025.2.2/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files/SimuSub/bin/rc.com"
+      - "C:/Program Files/SimuSub/bin/rc.exe"
+      - "C:/Program Files/SimuSub/bin/rc"
+      - "C:/Program Files/SimuSub/sbin/rc.com"
+      - "C:/Program Files/SimuSub/sbin/rc.exe"
+      - "C:/Program Files/SimuSub/sbin/rc"
+      - "C:/Program Files/SimuSub/rc.com"
+      - "C:/Program Files/SimuSub/rc.exe"
+      - "C:/Program Files/SimuSub/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\System32"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-7.1.1-full_build\\bin"
+        - "C:\\Users\\espid\\.dotnet\\tools"
+        - "C:\\Users\\espid\\AppData\\Roaming\\npm"
+        - "D:\\CLion 2025.2.2\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/SimuSub"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/SimuSub"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-ppdf0z"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-ppdf0z"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-ppdf0z'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_d4f92.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 22/09/2025 12:38:57.
+        Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ppdf0z\\cmTC_d4f92.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d4f92.dir\\Debug\\".
+          Creating directory "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ppdf0z\\Debug\\".
+          Creating directory "cmTC_d4f92.dir\\Debug\\cmTC_d4f92.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d4f92.dir\\Debug\\cmTC_d4f92.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_d4f92.dir\\Debug\\\\" /Fd"cmTC_d4f92.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_d4f92.dir\\Debug\\\\" /Fd"cmTC_d4f92.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ppdf0z\\Debug\\cmTC_d4f92.exe" /INCREMENTAL /ILK:"cmTC_d4f92.dir\\Debug\\cmTC_d4f92.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-ppdf0z/Debug/cmTC_d4f92.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-ppdf0z/Debug/cmTC_d4f92.lib" /MACHINE:X64  /machine:x64 cmTC_d4f92.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_d4f92.vcxproj -> C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ppdf0z\\Debug\\cmTC_d4f92.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d4f92.dir\\Debug\\cmTC_d4f92.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d4f92.dir\\Debug\\cmTC_d4f92.tlog\\cmTC_d4f92.lastbuildstate".
+        Done Building Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ppdf0z\\cmTC_d4f92.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.50
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "third_party/whisper.cpp/CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\System32"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-7.1.1-full_build\\bin"
+        - "C:\\Users\\espid\\.dotnet\\tools"
+        - "C:\\Users\\espid\\AppData\\Roaming\\npm"
+        - "D:\\CLion 2025.2.2\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/SimuSub"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/SimuSub"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "third_party/whisper.cpp/CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 22/09/2025 12:38:58.
+      Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\4.1.1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.58
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/4.1.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "third_party/whisper.cpp/CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/"
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files (x86)/NSIS/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/"
+      - "C:/Users/espid/.dotnet/tools/"
+      - "C:/Users/espid/AppData/Roaming/npm/"
+      - "D:/CLion 2025.2.2/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/SimuSub/bin/"
+      - "C:/Program Files/SimuSub/sbin/"
+      - "C:/Program Files/SimuSub/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files/PowerShell/7/lld-link.com"
+      - "C:/Program Files/PowerShell/7/lld-link.exe"
+      - "C:/Program Files/PowerShell/7/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/lld-link"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/lld-link.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/lld-link.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Program Files (x86)/NSIS/lld-link.com"
+      - "C:/Program Files (x86)/NSIS/lld-link.exe"
+      - "C:/Program Files (x86)/NSIS/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/lld-link"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/lld-link"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/lld-link.com"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/lld-link.exe"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/lld-link"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/lld-link.com"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/lld-link.exe"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/lld-link"
+      - "C:/Users/espid/.dotnet/tools/lld-link.com"
+      - "C:/Users/espid/.dotnet/tools/lld-link.exe"
+      - "C:/Users/espid/.dotnet/tools/lld-link"
+      - "C:/Users/espid/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/espid/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/espid/AppData/Roaming/npm/lld-link"
+      - "D:/CLion 2025.2.2/bin/lld-link.com"
+      - "D:/CLion 2025.2.2/bin/lld-link.exe"
+      - "D:/CLion 2025.2.2/bin/lld-link"
+      - "C:/Program Files/bin/lld-link.com"
+      - "C:/Program Files/bin/lld-link.exe"
+      - "C:/Program Files/bin/lld-link"
+      - "C:/Program Files/sbin/lld-link.com"
+      - "C:/Program Files/sbin/lld-link.exe"
+      - "C:/Program Files/sbin/lld-link"
+      - "C:/Program Files/lld-link.com"
+      - "C:/Program Files/lld-link.exe"
+      - "C:/Program Files/lld-link"
+      - "C:/Program Files (x86)/bin/lld-link.com"
+      - "C:/Program Files (x86)/bin/lld-link.exe"
+      - "C:/Program Files (x86)/bin/lld-link"
+      - "C:/Program Files (x86)/sbin/lld-link.com"
+      - "C:/Program Files (x86)/sbin/lld-link.exe"
+      - "C:/Program Files (x86)/sbin/lld-link"
+      - "C:/Program Files (x86)/lld-link.com"
+      - "C:/Program Files (x86)/lld-link.exe"
+      - "C:/Program Files (x86)/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/CMake/sbin/lld-link.com"
+      - "C:/Program Files/CMake/sbin/lld-link.exe"
+      - "C:/Program Files/CMake/sbin/lld-link"
+      - "C:/Program Files/CMake/lld-link.com"
+      - "C:/Program Files/CMake/lld-link.exe"
+      - "C:/Program Files/CMake/lld-link"
+      - "C:/Program Files/SimuSub/bin/lld-link.com"
+      - "C:/Program Files/SimuSub/bin/lld-link.exe"
+      - "C:/Program Files/SimuSub/bin/lld-link"
+      - "C:/Program Files/SimuSub/sbin/lld-link.com"
+      - "C:/Program Files/SimuSub/sbin/lld-link.exe"
+      - "C:/Program Files/SimuSub/sbin/lld-link"
+      - "C:/Program Files/SimuSub/lld-link.com"
+      - "C:/Program Files/SimuSub/lld-link.exe"
+      - "C:/Program Files/SimuSub/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\System32"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-7.1.1-full_build\\bin"
+        - "C:\\Users\\espid\\.dotnet\\tools"
+        - "C:\\Users\\espid\\AppData\\Roaming\\npm"
+        - "D:\\CLion 2025.2.2\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/SimuSub"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/SimuSub"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "third_party/whisper.cpp/CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-6uxrgi"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-6uxrgi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-6uxrgi'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_6ab5a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 22/09/2025 12:38:58.
+        Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-6uxrgi\\cmTC_6ab5a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6ab5a.dir\\Debug\\".
+          Creating directory "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-6uxrgi\\Debug\\".
+          Creating directory "cmTC_6ab5a.dir\\Debug\\cmTC_6ab5a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6ab5a.dir\\Debug\\cmTC_6ab5a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_6ab5a.dir\\Debug\\\\" /Fd"cmTC_6ab5a.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_6ab5a.dir\\Debug\\\\" /Fd"cmTC_6ab5a.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-6uxrgi\\Debug\\cmTC_6ab5a.exe" /INCREMENTAL /ILK:"cmTC_6ab5a.dir\\Debug\\cmTC_6ab5a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-6uxrgi/Debug/cmTC_6ab5a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-6uxrgi/Debug/cmTC_6ab5a.lib" /MACHINE:X64  /machine:x64 cmTC_6ab5a.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_6ab5a.vcxproj -> C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-6uxrgi\\Debug\\cmTC_6ab5a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6ab5a.dir\\Debug\\cmTC_6ab5a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6ab5a.dir\\Debug\\cmTC_6ab5a.tlog\\cmTC_6ab5a.lastbuildstate".
+        Done Building Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-6uxrgi\\cmTC_6ab5a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.61
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "third_party/whisper.cpp/CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "third_party/whisper.cpp/CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindGit.cmake:86 (find_program)"
+      - "third_party/whisper.cpp/cmake/build-info.cmake:7 (find_package)"
+      - "third_party/whisper.cpp/CMakeLists.txt:93 (include)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files (x86)/NSIS/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/"
+      - "C:/Users/espid/.dotnet/tools/"
+      - "C:/Users/espid/AppData/Roaming/npm/"
+      - "D:/CLion 2025.2.2/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/SimuSub/bin/"
+      - "C:/Program Files/SimuSub/sbin/"
+      - "C:/Program Files/SimuSub/"
+      - "C:/Users/espid/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/Program Files/PowerShell/7/git.cmd.com"
+      - "C:/Program Files/PowerShell/7/git.cmd.exe"
+      - "C:/Program Files/PowerShell/7/git.cmd"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/git.cmd.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/git.cmd.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/git.cmd"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/git.cmd.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/git.cmd.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/git.cmd"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd"
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Program Files (x86)/NSIS/git.cmd.com"
+      - "C:/Program Files (x86)/NSIS/git.cmd.exe"
+      - "C:/Program Files (x86)/NSIS/git.cmd"
+      - "C:/Program Files/nodejs/git.cmd.com"
+      - "C:/Program Files/nodejs/git.cmd.exe"
+      - "C:/Program Files/nodejs/git.cmd"
+      - "C:/ProgramData/chocolatey/bin/git.cmd.com"
+      - "C:/ProgramData/chocolatey/bin/git.cmd.exe"
+      - "C:/ProgramData/chocolatey/bin/git.cmd"
+      - "C:/Program Files/dotnet/git.cmd.com"
+      - "C:/Program Files/dotnet/git.cmd.exe"
+      - "C:/Program Files/dotnet/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/git.cmd.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/git.cmd.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/git.cmd"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/git.cmd.com"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/git.cmd.exe"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/git.cmd"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/git.cmd.com"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/git.cmd.exe"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/git.cmd"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/git.cmd.com"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/git.cmd.exe"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/git.cmd"
+      - "C:/Users/espid/.dotnet/tools/git.cmd.com"
+      - "C:/Users/espid/.dotnet/tools/git.cmd.exe"
+      - "C:/Users/espid/.dotnet/tools/git.cmd"
+      - "C:/Users/espid/AppData/Roaming/npm/git.cmd.com"
+      - "C:/Users/espid/AppData/Roaming/npm/git.cmd.exe"
+      - "C:/Users/espid/AppData/Roaming/npm/git.cmd"
+      - "D:/CLion 2025.2.2/bin/git.cmd.com"
+      - "D:/CLion 2025.2.2/bin/git.cmd.exe"
+      - "D:/CLion 2025.2.2/bin/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/CMake/sbin/git.cmd.com"
+      - "C:/Program Files/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files/CMake/sbin/git.cmd"
+      - "C:/Program Files/CMake/git.cmd.com"
+      - "C:/Program Files/CMake/git.cmd.exe"
+      - "C:/Program Files/CMake/git.cmd"
+      - "C:/Program Files/SimuSub/bin/git.cmd.com"
+      - "C:/Program Files/SimuSub/bin/git.cmd.exe"
+      - "C:/Program Files/SimuSub/bin/git.cmd"
+      - "C:/Program Files/SimuSub/sbin/git.cmd.com"
+      - "C:/Program Files/SimuSub/sbin/git.cmd.exe"
+      - "C:/Program Files/SimuSub/sbin/git.cmd"
+      - "C:/Program Files/SimuSub/git.cmd.com"
+      - "C:/Program Files/SimuSub/git.cmd.exe"
+      - "C:/Program Files/SimuSub/git.cmd"
+      - "C:/Users/espid/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/espid/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/espid/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/Program Files/PowerShell/7/git.com"
+      - "C:/Program Files/PowerShell/7/git.exe"
+      - "C:/Program Files/PowerShell/7/git"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/git.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/git.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/git"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/git.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/git.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/git"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Program Files (x86)/NSIS/git.com"
+      - "C:/Program Files (x86)/NSIS/git.exe"
+      - "C:/Program Files (x86)/NSIS/git"
+      - "C:/Program Files/nodejs/git.com"
+      - "C:/Program Files/nodejs/git.exe"
+      - "C:/Program Files/nodejs/git"
+      - "C:/ProgramData/chocolatey/bin/git.com"
+      - "C:/ProgramData/chocolatey/bin/git.exe"
+      - "C:/ProgramData/chocolatey/bin/git"
+      - "C:/Program Files/dotnet/git.com"
+      - "C:/Program Files/dotnet/git.exe"
+      - "C:/Program Files/dotnet/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\System32"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-7.1.1-full_build\\bin"
+        - "C:\\Users\\espid\\.dotnet\\tools"
+        - "C:\\Users\\espid\\AppData\\Roaming\\npm"
+        - "D:\\CLion 2025.2.2\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/SimuSub"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/SimuSub"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "third_party/whisper.cpp/ggml/CMakeLists.txt:237 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-hpqfj1"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-hpqfj1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-hpqfj1'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_fcd1c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 22/09/2025 12:38:59.
+        Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hpqfj1\\cmTC_fcd1c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_fcd1c.dir\\Debug\\".
+          Creating directory "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hpqfj1\\Debug\\".
+          Creating directory "cmTC_fcd1c.dir\\Debug\\cmTC_fcd1c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_fcd1c.dir\\Debug\\cmTC_fcd1c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /std:c11 /Fo"cmTC_fcd1c.dir\\Debug\\\\" /Fd"cmTC_fcd1c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hpqfj1\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /std:c11 /Fo"cmTC_fcd1c.dir\\Debug\\\\" /Fd"cmTC_fcd1c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hpqfj1\\src.c"
+        C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hpqfj1\\src.c(1,1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hpqfj1\\cmTC_fcd1c.vcxproj]
+        Done Building Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hpqfj1\\cmTC_fcd1c.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hpqfj1\\cmTC_fcd1c.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hpqfj1\\src.c(1,1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hpqfj1\\cmTC_fcd1c.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.48
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "third_party/whisper.cpp/ggml/CMakeLists.txt:237 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-p7prxl"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-p7prxl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-p7prxl'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_f4fd1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 22/09/2025 12:39:00.
+        Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-p7prxl\\cmTC_f4fd1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f4fd1.dir\\Debug\\".
+          Creating directory "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-p7prxl\\Debug\\".
+          Creating directory "cmTC_f4fd1.dir\\Debug\\cmTC_f4fd1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f4fd1.dir\\Debug\\cmTC_f4fd1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /std:c11 /Fo"cmTC_f4fd1.dir\\Debug\\\\" /Fd"cmTC_f4fd1.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-p7prxl\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /std:c11 /Fo"cmTC_f4fd1.dir\\Debug\\\\" /Fd"cmTC_f4fd1.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-p7prxl\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-p7prxl\\Debug\\cmTC_f4fd1.exe" /INCREMENTAL /ILK:"cmTC_f4fd1.dir\\Debug\\cmTC_f4fd1.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-p7prxl/Debug/cmTC_f4fd1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-p7prxl/Debug/cmTC_f4fd1.lib" /MACHINE:X64  /machine:x64 cmTC_f4fd1.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-p7prxl\\cmTC_f4fd1.vcxproj]
+        Done Building Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-p7prxl\\cmTC_f4fd1.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-p7prxl\\cmTC_f4fd1.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-p7prxl\\cmTC_f4fd1.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.53
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "third_party/whisper.cpp/ggml/CMakeLists.txt:237 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-ii0jwg"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-ii0jwg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-ii0jwg'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_80b3c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 22/09/2025 12:39:01.
+        Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ii0jwg\\cmTC_80b3c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_80b3c.dir\\Debug\\".
+          Creating directory "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ii0jwg\\Debug\\".
+          Creating directory "cmTC_80b3c.dir\\Debug\\cmTC_80b3c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_80b3c.dir\\Debug\\cmTC_80b3c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /std:c11 /Fo"cmTC_80b3c.dir\\Debug\\\\" /Fd"cmTC_80b3c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ii0jwg\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /std:c11 /Fo"cmTC_80b3c.dir\\Debug\\\\" /Fd"cmTC_80b3c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ii0jwg\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ii0jwg\\Debug\\cmTC_80b3c.exe" /INCREMENTAL /ILK:"cmTC_80b3c.dir\\Debug\\cmTC_80b3c.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-ii0jwg/Debug/cmTC_80b3c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-ii0jwg/Debug/cmTC_80b3c.lib" /MACHINE:X64  /machine:x64 cmTC_80b3c.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ii0jwg\\cmTC_80b3c.vcxproj]
+        Done Building Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ii0jwg\\cmTC_80b3c.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ii0jwg\\cmTC_80b3c.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ii0jwg\\cmTC_80b3c.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.51
+        
+      exitCode: 1
+  -
+    kind: "find-v1"
+    backtrace:
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:69 (find_program)"
+    mode: "program"
+    variable: "GGML_CCACHE_FOUND"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ccache"
+    candidate_directories:
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files (x86)/NSIS/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/"
+      - "C:/Users/espid/.dotnet/tools/"
+      - "C:/Users/espid/AppData/Roaming/npm/"
+      - "D:/CLion 2025.2.2/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/SimuSub/bin/"
+      - "C:/Program Files/SimuSub/sbin/"
+      - "C:/Program Files/SimuSub/"
+    searched_directories:
+      - "C:/Program Files/PowerShell/7/ccache.com"
+      - "C:/Program Files/PowerShell/7/ccache.exe"
+      - "C:/Program Files/PowerShell/7/ccache"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/ccache.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/ccache.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/ccache"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/ccache.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/ccache.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/ccache"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/ccache"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/ccache.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/ccache.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/ccache"
+      - "C:/Windows/System32/ccache.com"
+      - "C:/Windows/System32/ccache.exe"
+      - "C:/Windows/System32/ccache"
+      - "C:/Program Files (x86)/NSIS/ccache.com"
+      - "C:/Program Files (x86)/NSIS/ccache.exe"
+      - "C:/Program Files (x86)/NSIS/ccache"
+      - "C:/Program Files/nodejs/ccache.com"
+      - "C:/Program Files/nodejs/ccache.exe"
+      - "C:/Program Files/nodejs/ccache"
+      - "C:/ProgramData/chocolatey/bin/ccache.com"
+      - "C:/ProgramData/chocolatey/bin/ccache.exe"
+      - "C:/ProgramData/chocolatey/bin/ccache"
+      - "C:/Program Files/dotnet/ccache.com"
+      - "C:/Program Files/dotnet/ccache.exe"
+      - "C:/Program Files/dotnet/ccache"
+      - "C:/Program Files/Git/cmd/ccache.com"
+      - "C:/Program Files/Git/cmd/ccache.exe"
+      - "C:/Program Files/Git/cmd/ccache"
+      - "C:/Program Files/CMake/bin/ccache.com"
+      - "C:/Program Files/CMake/bin/ccache.exe"
+      - "C:/Program Files/CMake/bin/ccache"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/ccache.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/ccache.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/ccache"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/ccache.com"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/ccache.exe"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/ccache"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/ccache.com"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/ccache.exe"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/ccache"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/ccache.com"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/ccache.exe"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/ccache"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/ccache.com"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/ccache.exe"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/ccache"
+      - "C:/Users/espid/.dotnet/tools/ccache.com"
+      - "C:/Users/espid/.dotnet/tools/ccache.exe"
+      - "C:/Users/espid/.dotnet/tools/ccache"
+      - "C:/Users/espid/AppData/Roaming/npm/ccache.com"
+      - "C:/Users/espid/AppData/Roaming/npm/ccache.exe"
+      - "C:/Users/espid/AppData/Roaming/npm/ccache"
+      - "D:/CLion 2025.2.2/bin/ccache.com"
+      - "D:/CLion 2025.2.2/bin/ccache.exe"
+      - "D:/CLion 2025.2.2/bin/ccache"
+      - "C:/Program Files/bin/ccache.com"
+      - "C:/Program Files/bin/ccache.exe"
+      - "C:/Program Files/bin/ccache"
+      - "C:/Program Files/sbin/ccache.com"
+      - "C:/Program Files/sbin/ccache.exe"
+      - "C:/Program Files/sbin/ccache"
+      - "C:/Program Files/ccache.com"
+      - "C:/Program Files/ccache.exe"
+      - "C:/Program Files/ccache"
+      - "C:/Program Files (x86)/bin/ccache.com"
+      - "C:/Program Files (x86)/bin/ccache.exe"
+      - "C:/Program Files (x86)/bin/ccache"
+      - "C:/Program Files (x86)/sbin/ccache.com"
+      - "C:/Program Files (x86)/sbin/ccache.exe"
+      - "C:/Program Files (x86)/sbin/ccache"
+      - "C:/Program Files (x86)/ccache.com"
+      - "C:/Program Files (x86)/ccache.exe"
+      - "C:/Program Files (x86)/ccache"
+      - "C:/Program Files/CMake/bin/ccache.com"
+      - "C:/Program Files/CMake/bin/ccache.exe"
+      - "C:/Program Files/CMake/bin/ccache"
+      - "C:/Program Files/CMake/sbin/ccache.com"
+      - "C:/Program Files/CMake/sbin/ccache.exe"
+      - "C:/Program Files/CMake/sbin/ccache"
+      - "C:/Program Files/CMake/ccache.com"
+      - "C:/Program Files/CMake/ccache.exe"
+      - "C:/Program Files/CMake/ccache"
+      - "C:/Program Files/SimuSub/bin/ccache.com"
+      - "C:/Program Files/SimuSub/bin/ccache.exe"
+      - "C:/Program Files/SimuSub/bin/ccache"
+      - "C:/Program Files/SimuSub/sbin/ccache.com"
+      - "C:/Program Files/SimuSub/sbin/ccache.exe"
+      - "C:/Program Files/SimuSub/sbin/ccache"
+      - "C:/Program Files/SimuSub/ccache.com"
+      - "C:/Program Files/SimuSub/ccache.exe"
+      - "C:/Program Files/SimuSub/ccache"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\System32"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-7.1.1-full_build\\bin"
+        - "C:\\Users\\espid\\.dotnet\\tools"
+        - "C:\\Users\\espid\\AppData\\Roaming\\npm"
+        - "D:\\CLion 2025.2.2\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/SimuSub"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/SimuSub"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:70 (find_program)"
+    mode: "program"
+    variable: "GGML_SCCACHE_FOUND"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sccache"
+    candidate_directories:
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files (x86)/NSIS/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/"
+      - "C:/Users/espid/.dotnet/tools/"
+      - "C:/Users/espid/AppData/Roaming/npm/"
+      - "D:/CLion 2025.2.2/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/SimuSub/bin/"
+      - "C:/Program Files/SimuSub/sbin/"
+      - "C:/Program Files/SimuSub/"
+    searched_directories:
+      - "C:/Program Files/PowerShell/7/sccache.com"
+      - "C:/Program Files/PowerShell/7/sccache.exe"
+      - "C:/Program Files/PowerShell/7/sccache"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/sccache.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/sccache.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/sccache"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/sccache.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/sccache.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/sccache"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/sccache.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/sccache.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/sccache"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/sccache.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/sccache.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/sccache"
+      - "C:/Windows/System32/sccache.com"
+      - "C:/Windows/System32/sccache.exe"
+      - "C:/Windows/System32/sccache"
+      - "C:/Program Files (x86)/NSIS/sccache.com"
+      - "C:/Program Files (x86)/NSIS/sccache.exe"
+      - "C:/Program Files (x86)/NSIS/sccache"
+      - "C:/Program Files/nodejs/sccache.com"
+      - "C:/Program Files/nodejs/sccache.exe"
+      - "C:/Program Files/nodejs/sccache"
+      - "C:/ProgramData/chocolatey/bin/sccache.com"
+      - "C:/ProgramData/chocolatey/bin/sccache.exe"
+      - "C:/ProgramData/chocolatey/bin/sccache"
+      - "C:/Program Files/dotnet/sccache.com"
+      - "C:/Program Files/dotnet/sccache.exe"
+      - "C:/Program Files/dotnet/sccache"
+      - "C:/Program Files/Git/cmd/sccache.com"
+      - "C:/Program Files/Git/cmd/sccache.exe"
+      - "C:/Program Files/Git/cmd/sccache"
+      - "C:/Program Files/CMake/bin/sccache.com"
+      - "C:/Program Files/CMake/bin/sccache.exe"
+      - "C:/Program Files/CMake/bin/sccache"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/sccache.com"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/sccache.exe"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/sccache"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/sccache.com"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/sccache.exe"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/sccache"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/sccache.com"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/sccache.exe"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/sccache"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/sccache.com"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/sccache.exe"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/sccache"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/sccache.com"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/sccache.exe"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/sccache"
+      - "C:/Users/espid/.dotnet/tools/sccache.com"
+      - "C:/Users/espid/.dotnet/tools/sccache.exe"
+      - "C:/Users/espid/.dotnet/tools/sccache"
+      - "C:/Users/espid/AppData/Roaming/npm/sccache.com"
+      - "C:/Users/espid/AppData/Roaming/npm/sccache.exe"
+      - "C:/Users/espid/AppData/Roaming/npm/sccache"
+      - "D:/CLion 2025.2.2/bin/sccache.com"
+      - "D:/CLion 2025.2.2/bin/sccache.exe"
+      - "D:/CLion 2025.2.2/bin/sccache"
+      - "C:/Program Files/bin/sccache.com"
+      - "C:/Program Files/bin/sccache.exe"
+      - "C:/Program Files/bin/sccache"
+      - "C:/Program Files/sbin/sccache.com"
+      - "C:/Program Files/sbin/sccache.exe"
+      - "C:/Program Files/sbin/sccache"
+      - "C:/Program Files/sccache.com"
+      - "C:/Program Files/sccache.exe"
+      - "C:/Program Files/sccache"
+      - "C:/Program Files (x86)/bin/sccache.com"
+      - "C:/Program Files (x86)/bin/sccache.exe"
+      - "C:/Program Files (x86)/bin/sccache"
+      - "C:/Program Files (x86)/sbin/sccache.com"
+      - "C:/Program Files (x86)/sbin/sccache.exe"
+      - "C:/Program Files (x86)/sbin/sccache"
+      - "C:/Program Files (x86)/sccache.com"
+      - "C:/Program Files (x86)/sccache.exe"
+      - "C:/Program Files (x86)/sccache"
+      - "C:/Program Files/CMake/bin/sccache.com"
+      - "C:/Program Files/CMake/bin/sccache.exe"
+      - "C:/Program Files/CMake/bin/sccache"
+      - "C:/Program Files/CMake/sbin/sccache.com"
+      - "C:/Program Files/CMake/sbin/sccache.exe"
+      - "C:/Program Files/CMake/sbin/sccache"
+      - "C:/Program Files/CMake/sccache.com"
+      - "C:/Program Files/CMake/sccache.exe"
+      - "C:/Program Files/CMake/sccache"
+      - "C:/Program Files/SimuSub/bin/sccache.com"
+      - "C:/Program Files/SimuSub/bin/sccache.exe"
+      - "C:/Program Files/SimuSub/bin/sccache"
+      - "C:/Program Files/SimuSub/sbin/sccache.com"
+      - "C:/Program Files/SimuSub/sbin/sccache.exe"
+      - "C:/Program Files/SimuSub/sbin/sccache"
+      - "C:/Program Files/SimuSub/sccache.com"
+      - "C:/Program Files/SimuSub/sccache.exe"
+      - "C:/Program Files/SimuSub/sccache"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\System32"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-7.1.1-full_build\\bin"
+        - "C:\\Users\\espid\\.dotnet\\tools"
+        - "C:\\Users\\espid\\AppData\\Roaming\\npm"
+        - "D:\\CLion 2025.2.2\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/SimuSub"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/SimuSub"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:251 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:558 (_OPENMP_GET_FLAGS)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt:71 (find_package)"
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-v4ui44"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-v4ui44"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-v4ui44'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_b56eb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 22/09/2025 12:39:02.
+        Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-v4ui44\\cmTC_b56eb.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b56eb.dir\\Debug\\".
+          Creating directory "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-v4ui44\\Debug\\".
+          Creating directory "cmTC_b56eb.dir\\Debug\\cmTC_b56eb.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b56eb.dir\\Debug\\cmTC_b56eb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /openmp /std:c11 /Fo"cmTC_b56eb.dir\\Debug\\\\" /Fd"cmTC_b56eb.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-v4ui44\\OpenMPTryFlag.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          OpenMPTryFlag.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /openmp /std:c11 /Fo"cmTC_b56eb.dir\\Debug\\\\" /Fd"cmTC_b56eb.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-v4ui44\\OpenMPTryFlag.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-v4ui44\\Debug\\cmTC_b56eb.exe" /INCREMENTAL /ILK:"cmTC_b56eb.dir\\Debug\\cmTC_b56eb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-v4ui44/Debug/cmTC_b56eb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-v4ui44/Debug/cmTC_b56eb.lib" /MACHINE:X64  /machine:x64 cmTC_b56eb.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_b56eb.vcxproj -> C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-v4ui44\\Debug\\cmTC_b56eb.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_b56eb.dir\\Debug\\cmTC_b56eb.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b56eb.dir\\Debug\\cmTC_b56eb.tlog\\cmTC_b56eb.lastbuildstate".
+        Done Building Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-v4ui44\\cmTC_b56eb.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:251 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:558 (_OPENMP_GET_FLAGS)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt:71 (find_package)"
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-hq6xl4"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-hq6xl4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-hq6xl4'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_70c11.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 22/09/2025 12:39:03.
+        Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hq6xl4\\cmTC_70c11.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_70c11.dir\\Debug\\".
+          Creating directory "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hq6xl4\\Debug\\".
+          Creating directory "cmTC_70c11.dir\\Debug\\cmTC_70c11.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_70c11.dir\\Debug\\cmTC_70c11.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /openmp /std:c++17 /Fo"cmTC_70c11.dir\\Debug\\\\" /Fd"cmTC_70c11.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hq6xl4\\OpenMPTryFlag.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          OpenMPTryFlag.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /openmp /std:c++17 /Fo"cmTC_70c11.dir\\Debug\\\\" /Fd"cmTC_70c11.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hq6xl4\\OpenMPTryFlag.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hq6xl4\\Debug\\cmTC_70c11.exe" /INCREMENTAL /ILK:"cmTC_70c11.dir\\Debug\\cmTC_70c11.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-hq6xl4/Debug/cmTC_70c11.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-hq6xl4/Debug/cmTC_70c11.lib" /MACHINE:X64  /machine:x64 cmTC_70c11.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_70c11.vcxproj -> C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hq6xl4\\Debug\\cmTC_70c11.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_70c11.dir\\Debug\\cmTC_70c11.tlog\\unsuccessfulbuild".
+          Touching "cmTC_70c11.dir\\Debug\\cmTC_70c11.tlog\\cmTC_70c11.lastbuildstate".
+        Done Building Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-hq6xl4\\cmTC_70c11.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:492 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:632 (_OPENMP_GET_SPEC_DATE)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt:71 (find_package)"
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-z2ksbj"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-z2ksbj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-z2ksbj'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_552a4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 22/09/2025 12:39:03.
+        Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-z2ksbj\\cmTC_552a4.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_552a4.dir\\Debug\\".
+          Creating directory "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-z2ksbj\\Debug\\".
+          Creating directory "cmTC_552a4.dir\\Debug\\cmTC_552a4.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_552a4.dir\\Debug\\cmTC_552a4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /openmp /std:c11 /Fo"cmTC_552a4.dir\\Debug\\\\" /Fd"cmTC_552a4.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-z2ksbj\\OpenMPCheckVersion.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          OpenMPCheckVersion.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /openmp /std:c11 /Fo"cmTC_552a4.dir\\Debug\\\\" /Fd"cmTC_552a4.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-z2ksbj\\OpenMPCheckVersion.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-z2ksbj\\Debug\\cmTC_552a4.exe" /INCREMENTAL /ILK:"cmTC_552a4.dir\\Debug\\cmTC_552a4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-z2ksbj/Debug/cmTC_552a4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-z2ksbj/Debug/cmTC_552a4.lib" /MACHINE:X64  /machine:x64 cmTC_552a4.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_552a4.vcxproj -> C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-z2ksbj\\Debug\\cmTC_552a4.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_552a4.dir\\Debug\\cmTC_552a4.tlog\\unsuccessfulbuild".
+          Touching "cmTC_552a4.dir\\Debug\\cmTC_552a4.tlog\\cmTC_552a4.lastbuildstate".
+        Done Building Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-z2ksbj\\cmTC_552a4.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:492 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenMP.cmake:632 (_OPENMP_GET_SPEC_DATE)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt:71 (find_package)"
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-e2dcku"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-e2dcku"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-e2dcku'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_1434e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 22/09/2025 12:39:04.
+        Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-e2dcku\\cmTC_1434e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1434e.dir\\Debug\\".
+          Creating directory "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-e2dcku\\Debug\\".
+          Creating directory "cmTC_1434e.dir\\Debug\\cmTC_1434e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1434e.dir\\Debug\\cmTC_1434e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /openmp /std:c++17 /Fo"cmTC_1434e.dir\\Debug\\\\" /Fd"cmTC_1434e.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-e2dcku\\OpenMPCheckVersion.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          OpenMPCheckVersion.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /openmp /std:c++17 /Fo"cmTC_1434e.dir\\Debug\\\\" /Fd"cmTC_1434e.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-e2dcku\\OpenMPCheckVersion.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-e2dcku\\Debug\\cmTC_1434e.exe" /INCREMENTAL /ILK:"cmTC_1434e.dir\\Debug\\cmTC_1434e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-e2dcku/Debug/cmTC_1434e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-e2dcku/Debug/cmTC_1434e.lib" /MACHINE:X64  /machine:x64 cmTC_1434e.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_1434e.vcxproj -> C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-e2dcku\\Debug\\cmTC_1434e.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_1434e.dir\\Debug\\cmTC_1434e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_1434e.dir\\Debug\\cmTC_1434e.tlog\\cmTC_1434e.lastbuildstate".
+        Done Building Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-e2dcku\\cmTC_1434e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.55
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCSourceRuns.cmake:88 (cmake_check_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:80 (check_sse)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt:242 (include)"
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
+    checks:
+      - "Performing Test HAS_AVX_1"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-x4gm7m"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-x4gm7m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "HAS_AVX_1_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-x4gm7m'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_08961.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 22/09/2025 12:39:05.
+        Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-x4gm7m\\cmTC_08961.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_08961.dir\\Debug\\".
+          Creating directory "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-x4gm7m\\Debug\\".
+          Creating directory "cmTC_08961.dir\\Debug\\cmTC_08961.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_08961.dir\\Debug\\cmTC_08961.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_AVX_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /std:c11 /Fo"cmTC_08961.dir\\Debug\\\\" /Fd"cmTC_08961.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-x4gm7m\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_AVX_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /std:c11 /Fo"cmTC_08961.dir\\Debug\\\\" /Fd"cmTC_08961.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-x4gm7m\\src.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-x4gm7m\\Debug\\cmTC_08961.exe" /INCREMENTAL /ILK:"cmTC_08961.dir\\Debug\\cmTC_08961.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-x4gm7m/Debug/cmTC_08961.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-x4gm7m/Debug/cmTC_08961.lib" /MACHINE:X64  /machine:x64 cmTC_08961.dir\\Debug\\src.obj
+          cmTC_08961.vcxproj -> C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-x4gm7m\\Debug\\cmTC_08961.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_08961.dir\\Debug\\cmTC_08961.tlog\\unsuccessfulbuild".
+          Touching "cmTC_08961.dir\\Debug\\cmTC_08961.tlog\\cmTC_08961.lastbuildstate".
+        Done Building Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-x4gm7m\\cmTC_08961.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.61
+        
+      exitCode: 0
+    runResult:
+      variable: "HAS_AVX_1_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCSourceRuns.cmake:88 (cmake_check_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:87 (check_sse)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt:242 (include)"
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
+    checks:
+      - "Performing Test HAS_AVX2_1"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-bskqhi"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-bskqhi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "HAS_AVX2_1_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-bskqhi'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_244a8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 22/09/2025 12:39:06.
+        Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-bskqhi\\cmTC_244a8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_244a8.dir\\Debug\\".
+          Creating directory "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-bskqhi\\Debug\\".
+          Creating directory "cmTC_244a8.dir\\Debug\\cmTC_244a8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_244a8.dir\\Debug\\cmTC_244a8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_AVX2_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /std:c11 /Fo"cmTC_244a8.dir\\Debug\\\\" /Fd"cmTC_244a8.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-bskqhi\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_AVX2_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /std:c11 /Fo"cmTC_244a8.dir\\Debug\\\\" /Fd"cmTC_244a8.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-bskqhi\\src.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-bskqhi\\Debug\\cmTC_244a8.exe" /INCREMENTAL /ILK:"cmTC_244a8.dir\\Debug\\cmTC_244a8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-bskqhi/Debug/cmTC_244a8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-bskqhi/Debug/cmTC_244a8.lib" /MACHINE:X64  /machine:x64 cmTC_244a8.dir\\Debug\\src.obj
+          cmTC_244a8.vcxproj -> C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-bskqhi\\Debug\\cmTC_244a8.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_244a8.dir\\Debug\\cmTC_244a8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_244a8.dir\\Debug\\cmTC_244a8.tlog\\cmTC_244a8.lastbuildstate".
+        Done Building Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-bskqhi\\cmTC_244a8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.60
+        
+      exitCode: 0
+    runResult:
+      variable: "HAS_AVX2_1_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCSourceRuns.cmake:88 (cmake_check_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:88 (check_sse)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt:242 (include)"
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
+    checks:
+      - "Performing Test HAS_FMA_1"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-yhmwnb"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-yhmwnb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "HAS_FMA_1_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-yhmwnb'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_73492.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 22/09/2025 12:39:07.
+        Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-yhmwnb\\cmTC_73492.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_73492.dir\\Debug\\".
+          Creating directory "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-yhmwnb\\Debug\\".
+          Creating directory "cmTC_73492.dir\\Debug\\cmTC_73492.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_73492.dir\\Debug\\cmTC_73492.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_FMA_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /std:c11 /Fo"cmTC_73492.dir\\Debug\\\\" /Fd"cmTC_73492.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-yhmwnb\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_FMA_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /std:c11 /Fo"cmTC_73492.dir\\Debug\\\\" /Fd"cmTC_73492.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-yhmwnb\\src.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-yhmwnb\\Debug\\cmTC_73492.exe" /INCREMENTAL /ILK:"cmTC_73492.dir\\Debug\\cmTC_73492.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-yhmwnb/Debug/cmTC_73492.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-yhmwnb/Debug/cmTC_73492.lib" /MACHINE:X64  /machine:x64 cmTC_73492.dir\\Debug\\src.obj
+          cmTC_73492.vcxproj -> C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-yhmwnb\\Debug\\cmTC_73492.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_73492.dir\\Debug\\cmTC_73492.tlog\\unsuccessfulbuild".
+          Touching "cmTC_73492.dir\\Debug\\cmTC_73492.tlog\\cmTC_73492.lastbuildstate".
+        Done Building Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-yhmwnb\\cmTC_73492.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.58
+        
+      exitCode: 0
+    runResult:
+      variable: "HAS_FMA_1_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCSourceRuns.cmake:88 (cmake_check_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:95 (check_sse)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt:242 (include)"
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
+    checks:
+      - "Performing Test HAS_AVX512_1"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-ly0sgu"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-ly0sgu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "HAS_AVX512_1_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-ly0sgu'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_5dab1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 22/09/2025 12:39:07.
+        Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ly0sgu\\cmTC_5dab1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_5dab1.dir\\Debug\\".
+          Creating directory "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ly0sgu\\Debug\\".
+          Creating directory "cmTC_5dab1.dir\\Debug\\cmTC_5dab1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5dab1.dir\\Debug\\cmTC_5dab1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_AVX512_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /std:c11 /Fo"cmTC_5dab1.dir\\Debug\\\\" /Fd"cmTC_5dab1.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ly0sgu\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_AVX512_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /std:c11 /Fo"cmTC_5dab1.dir\\Debug\\\\" /Fd"cmTC_5dab1.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ly0sgu\\src.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ly0sgu\\Debug\\cmTC_5dab1.exe" /INCREMENTAL /ILK:"cmTC_5dab1.dir\\Debug\\cmTC_5dab1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-ly0sgu/Debug/cmTC_5dab1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-ly0sgu/Debug/cmTC_5dab1.lib" /MACHINE:X64  /machine:x64 cmTC_5dab1.dir\\Debug\\src.obj
+          cmTC_5dab1.vcxproj -> C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ly0sgu\\Debug\\cmTC_5dab1.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_5dab1.dir\\Debug\\cmTC_5dab1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_5dab1.dir\\Debug\\cmTC_5dab1.tlog\\cmTC_5dab1.lastbuildstate".
+        Done Building Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-ly0sgu\\cmTC_5dab1.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.61
+        
+      exitCode: 0
+    runResult:
+      variable: "HAS_AVX512_1_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+        Illegal instruction
+      exitCode: "FAILED_TO_RUN"
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CheckCSourceRuns.cmake:88 (cmake_check_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:95 (check_sse)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt:242 (include)"
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
+    checks:
+      - "Performing Test HAS_AVX512_2"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-xbaud1"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-xbaud1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "HAS_AVX512_2_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-xbaud1'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_5401d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 22/09/2025 12:39:08.
+        Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-xbaud1\\cmTC_5401d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_5401d.dir\\Debug\\".
+          Creating directory "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-xbaud1\\Debug\\".
+          Creating directory "cmTC_5401d.dir\\Debug\\cmTC_5401d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5401d.dir\\Debug\\cmTC_5401d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_AVX512_2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /arch:AVX512 /fp:precise /std:c11 /Fo"cmTC_5401d.dir\\Debug\\\\" /Fd"cmTC_5401d.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-xbaud1\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAS_AVX512_2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /arch:AVX512 /fp:precise /std:c11 /Fo"cmTC_5401d.dir\\Debug\\\\" /Fd"cmTC_5401d.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-xbaud1\\src.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-xbaud1\\Debug\\cmTC_5401d.exe" /INCREMENTAL /ILK:"cmTC_5401d.dir\\Debug\\cmTC_5401d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-xbaud1/Debug/cmTC_5401d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/CMakeScratch/TryCompile-xbaud1/Debug/cmTC_5401d.lib" /MACHINE:X64  /machine:x64 cmTC_5401d.dir\\Debug\\src.obj
+          cmTC_5401d.vcxproj -> C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-xbaud1\\Debug\\cmTC_5401d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_5401d.dir\\Debug\\cmTC_5401d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_5401d.dir\\Debug\\cmTC_5401d.tlog\\cmTC_5401d.lastbuildstate".
+        Done Building Project "C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc\\CMakeFiles\\CMakeScratch\\TryCompile-xbaud1\\cmTC_5401d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.54
+        
+      exitCode: 0
+    runResult:
+      variable: "HAS_AVX512_2_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+        Illegal instruction
+      exitCode: "FAILED_TO_RUN"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:395 (find_library)"
+    mode: "library"
+    variable: "MATH_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "m"
+    candidate_directories:
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files (x86)/NSIS/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/"
+      - "C:/Users/espid/.dotnet/tools/"
+      - "C:/Users/espid/AppData/Roaming/npm/"
+      - "D:/CLion 2025.2.2/bin/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/SimuSub/lib/"
+      - "C:/Program Files/SimuSub/"
+      - "C:/Program Files/SimuSub/bin/"
+      - "/bin/"
+    searched_directories:
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files (x86)/NSIS/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/"
+      - "C:/Users/espid/.dotnet/tools/"
+      - "C:/Users/espid/AppData/Roaming/npm/"
+      - "D:/CLion 2025.2.2/bin/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/SimuSub/lib/"
+      - "C:/Program Files/SimuSub/"
+      - "C:/Program Files/SimuSub/bin/"
+      - "/bin/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\System32"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-7.1.1-full_build\\bin"
+        - "C:\\Users\\espid\\.dotnet\\tools"
+        - "C:\\Users\\espid\\AppData\\Roaming\\npm"
+        - "D:\\CLion 2025.2.2\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/SimuSub"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/SimuSub"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files/SimuSub/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "third_party/whisper.cpp/ggml/CMakeLists.txt:307 (find_program)"
+    mode: "program"
+    variable: "GIT_EXE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git"
+      - "git.exe"
+    candidate_directories:
+      - "C:/Program Files/PowerShell/7/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Program Files (x86)/NSIS/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/Nsight Compute 2025.3.1/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/espid/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/espid/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-7.1.1-full_build/bin/"
+      - "C:/Users/espid/.dotnet/tools/"
+      - "C:/Users/espid/AppData/Roaming/npm/"
+      - "D:/CLion 2025.2.2/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files/SimuSub/bin/"
+      - "C:/Program Files/SimuSub/sbin/"
+      - "C:/Program Files/SimuSub/"
+    searched_directories:
+      - "C:/Program Files/PowerShell/7/git.com"
+      - "C:/Program Files/PowerShell/7/git.exe"
+      - "C:/Program Files/PowerShell/7/git"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/git.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/git.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/x64/git"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/git.com"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/git.exe"
+      - "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.0/bin/git"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Program Files (x86)/NSIS/git.com"
+      - "C:/Program Files (x86)/NSIS/git.exe"
+      - "C:/Program Files (x86)/NSIS/git"
+      - "C:/Program Files/nodejs/git.com"
+      - "C:/Program Files/nodejs/git.exe"
+      - "C:/Program Files/nodejs/git"
+      - "C:/ProgramData/chocolatey/bin/git.com"
+      - "C:/ProgramData/chocolatey/bin/git.exe"
+      - "C:/ProgramData/chocolatey/bin/git"
+      - "C:/Program Files/dotnet/git.com"
+      - "C:/Program Files/dotnet/git.exe"
+      - "C:/Program Files/dotnet/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\PowerShell\\7"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin\\x64"
+        - "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v13.0\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\System32"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Program Files (x86)\\NSIS"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\PowerShell\\7\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2025.3.1\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\espid\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-7.1.1-full_build\\bin"
+        - "C:\\Users\\espid\\.dotnet\\tools"
+        - "C:\\Users\\espid\\AppData\\Roaming\\npm"
+        - "D:\\CLion 2025.2.2\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/SimuSub"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files/SimuSub"
+...

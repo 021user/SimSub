@@ -1,0 +1,10 @@
+^C:\USERS\ESPID\CLIONPROJECTS\SIMUSUB\THIRD_PARTY\WHISPER.CPP\GGML\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/espid/CLionProjects/SimuSub -BC:/Users/espid/CLionProjects/SimuSub/build-msvc --check-stamp-file C:/Users/espid/CLionProjects/SimuSub/build-msvc/third_party/whisper.cpp/ggml/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

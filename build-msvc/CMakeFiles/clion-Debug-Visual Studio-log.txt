@@ -1,0 +1,4 @@
+Cannot generate into C:\Users\espid\CLionProjects\SimuSub\build-msvc
+It was created with incompatible generator 'Visual Studio 16 2019'
+
+Please either delete it manually or select another generation directory

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\espid\CLionProjects\SimuSub\third_party\whisper.cpp\src\whisper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\espid\CLionProjects\SimuSub\third_party\whisper.cpp\include\whisper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\espid\CLionProjects\SimuSub\third_party\whisper.cpp\src\whisper-arch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\espid\CLionProjects\SimuSub\third_party\whisper.cpp\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F311E6AA-98DC-34EF-94F8-C7B9E7E7ADF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{67024CAB-4EB0-3189-8DC1-47351A1880DE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

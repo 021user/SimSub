@@ -1,0 +1,1 @@
+C:/Users/espid/CLionProjects/SimuSub/build-msvc/third_party/whisper.cpp/src/whisper.dir/Debug/whisper.obj

@@ -1,0 +1,16 @@
+C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/subrtx.dir
+C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/subrtx_cli.dir
+C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/INSTALL.dir
+C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/ALL_BUILD.dir
+C:/Users/espid/CLionProjects/SimuSub/build-msvc/CMakeFiles/ZERO_CHECK.dir
+C:/Users/espid/CLionProjects/SimuSub/build-msvc/third_party/whisper.cpp/CMakeFiles/INSTALL.dir
+C:/Users/espid/CLionProjects/SimuSub/build-msvc/third_party/whisper.cpp/CMakeFiles/ALL_BUILD.dir
+C:/Users/espid/CLionProjects/SimuSub/build-msvc/third_party/whisper.cpp/ggml/CMakeFiles/INSTALL.dir
+C:/Users/espid/CLionProjects/SimuSub/build-msvc/third_party/whisper.cpp/ggml/CMakeFiles/ALL_BUILD.dir
+C:/Users/espid/CLionProjects/SimuSub/build-msvc/third_party/whisper.cpp/ggml/src/CMakeFiles/ggml-base.dir
+C:/Users/espid/CLionProjects/SimuSub/build-msvc/third_party/whisper.cpp/ggml/src/CMakeFiles/ggml.dir
+C:/Users/espid/CLionProjects/SimuSub/build-msvc/third_party/whisper.cpp/ggml/src/CMakeFiles/ggml-cpu.dir
+C:/Users/espid/CLionProjects/SimuSub/build-msvc/third_party/whisper.cpp/ggml/src/CMakeFiles/INSTALL.dir
+C:/Users/espid/CLionProjects/SimuSub/build-msvc/third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeFiles/INSTALL.dir
+C:/Users/espid/CLionProjects/SimuSub/build-msvc/third_party/whisper.cpp/src/CMakeFiles/whisper.dir
+C:/Users/espid/CLionProjects/SimuSub/build-msvc/third_party/whisper.cpp/src/CMakeFiles/INSTALL.dir

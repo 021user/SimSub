@@ -1,0 +1,643 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x86/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x86
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/4.0.2/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1322 (message)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc-x64\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-lvlluw"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-lvlluw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-lvlluw'
+        
+        Run Build Command(s): "D:/CLion 2025.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_fd310
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_fd310.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_fd310.dir\\ /FS -c "D:\\CLion 2025.2.2\\bin\\cmake\\win\\x64\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\CLion 2025.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\\cmTC_fd310.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_fd310.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_fd310.exe /implib:cmTC_fd310.lib /pdb:cmTC_fd310.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/PROGRA~2/MICROS~2/2019/BUILDT~1/VC/Tools/MSVC/1429~1.301/bin/Hostx64/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~2/MICROS~2/2019/BUILDT~1/VC/Tools/MSVC/1429~1.301/bin/Hostx64/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "third_party/whisper.cpp/CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x86/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x86
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/4.0.2/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1322 (message)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "third_party/whisper.cpp/CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc-x64\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "third_party/whisper.cpp/CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-60wql7"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-60wql7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-60wql7'
+        
+        Run Build Command(s): "D:/CLion 2025.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_c90c1
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_c90c1.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_c90c1.dir\\ /FS -c "D:\\CLion 2025.2.2\\bin\\cmake\\win\\x64\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\CLion 2025.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\\cmTC_c90c1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_c90c1.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_c90c1.exe /implib:cmTC_c90c1.lib /pdb:cmTC_c90c1.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "third_party/whisper.cpp/CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/PROGRA~2/MICROS~2/2019/BUILDT~1/VC/Tools/MSVC/1429~1.301/bin/Hostx64/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "third_party/whisper.cpp/CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~2/MICROS~2/2019/BUILDT~1/VC/Tools/MSVC/1429~1.301/bin/Hostx64/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "third_party/whisper.cpp/ggml/CMakeLists.txt:237 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-sg1kz7"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-sg1kz7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-sg1kz7'
+        
+        Run Build Command(s): "D:/CLion 2025.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_649b8
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_649b8.dir\\src.c.obj /FdCMakeFiles\\cmTC_649b8.dir\\ /FS -c C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-sg1kz7\\src.c
+        FAILED: CMakeFiles/cmTC_649b8.dir/src.c.obj 
+        C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_649b8.dir\\src.c.obj /FdCMakeFiles\\cmTC_649b8.dir\\ /FS -c C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-sg1kz7\\src.c
+        C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-sg1kz7\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "third_party/whisper.cpp/ggml/CMakeLists.txt:237 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-52bm7g"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-52bm7g"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-52bm7g'
+        
+        Run Build Command(s): "D:/CLion 2025.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_79ea3
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_79ea3.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_79ea3.dir\\ /FS -c C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-52bm7g\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\CLion 2025.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\\cmTC_79ea3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_79ea3.dir\\CheckFunctionExists.c.obj  /out:cmTC_79ea3.exe /implib:cmTC_79ea3.lib /pdb:cmTC_79ea3.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_79ea3.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\CLion 2025.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\\cmTC_79ea3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_79ea3.dir\\CheckFunctionExists.c.obj  /out:cmTC_79ea3.exe /implib:cmTC_79ea3.lib /pdb:cmTC_79ea3.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_79ea3.dir\\CheckFunctionExists.c.obj /out:cmTC_79ea3.exe /implib:cmTC_79ea3.lib /pdb:cmTC_79ea3.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_79ea3.dir/intermediate.manifest CMakeFiles\\cmTC_79ea3.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "third_party/whisper.cpp/ggml/CMakeLists.txt:237 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-j04byg"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-j04byg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-j04byg'
+        
+        Run Build Command(s): "D:/CLion 2025.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_18ab4
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_18ab4.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_18ab4.dir\\ /FS -c C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-j04byg\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\CLion 2025.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\\cmTC_18ab4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_18ab4.dir\\CheckFunctionExists.c.obj  /out:cmTC_18ab4.exe /implib:cmTC_18ab4.lib /pdb:cmTC_18ab4.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_18ab4.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\CLion 2025.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\\cmTC_18ab4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_18ab4.dir\\CheckFunctionExists.c.obj  /out:cmTC_18ab4.exe /implib:cmTC_18ab4.lib /pdb:cmTC_18ab4.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_18ab4.dir\\CheckFunctionExists.c.obj /out:cmTC_18ab4.exe /implib:cmTC_18ab4.lib /pdb:cmTC_18ab4.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_18ab4.dir/intermediate.manifest CMakeFiles\\cmTC_18ab4.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/FindOpenMP.cmake:250 (try_compile)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_FLAGS)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt:71 (find_package)"
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-qq4jjw"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-qq4jjw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-qq4jjw'
+        
+        Run Build Command(s): "D:/CLion 2025.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_fb6fa
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -openmp /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_fb6fa.dir\\OpenMPTryFlag.c.obj /FdCMakeFiles\\cmTC_fb6fa.dir\\ /FS -c C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-qq4jjw\\OpenMPTryFlag.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\CLion 2025.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\\cmTC_fb6fa.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_fb6fa.dir\\OpenMPTryFlag.c.obj  /out:cmTC_fb6fa.exe /implib:cmTC_fb6fa.lib /pdb:cmTC_fb6fa.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/FindOpenMP.cmake:250 (try_compile)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_FLAGS)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt:71 (find_package)"
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-dr5zr0"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-dr5zr0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-dr5zr0'
+        
+        Run Build Command(s): "D:/CLion 2025.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_600ad
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc -openmp /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_600ad.dir\\OpenMPTryFlag.cpp.obj /FdCMakeFiles\\cmTC_600ad.dir\\ /FS -c C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-dr5zr0\\OpenMPTryFlag.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\CLion 2025.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\\cmTC_600ad.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_600ad.dir\\OpenMPTryFlag.cpp.obj  /out:cmTC_600ad.exe /implib:cmTC_600ad.lib /pdb:cmTC_600ad.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/FindOpenMP.cmake:491 (try_compile)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/FindOpenMP.cmake:631 (_OPENMP_GET_SPEC_DATE)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt:71 (find_package)"
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-oinqc3"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-oinqc3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-oinqc3'
+        
+        Run Build Command(s): "D:/CLion 2025.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_0e3bd
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -openmp /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_0e3bd.dir\\OpenMPCheckVersion.c.obj /FdCMakeFiles\\cmTC_0e3bd.dir\\ /FS -c C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-oinqc3\\OpenMPCheckVersion.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\CLion 2025.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\\cmTC_0e3bd.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_0e3bd.dir\\OpenMPCheckVersion.c.obj  /out:cmTC_0e3bd.exe /implib:cmTC_0e3bd.lib /pdb:cmTC_0e3bd.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/FindOpenMP.cmake:491 (try_compile)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/FindOpenMP.cmake:631 (_OPENMP_GET_SPEC_DATE)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt:71 (find_package)"
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-d9ujey"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-d9ujey"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-d9ujey'
+        
+        Run Build Command(s): "D:/CLion 2025.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_024bb
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc -openmp /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_024bb.dir\\OpenMPCheckVersion.cpp.obj /FdCMakeFiles\\cmTC_024bb.dir\\ /FS -c C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-d9ujey\\OpenMPCheckVersion.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\CLion 2025.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\\cmTC_024bb.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_024bb.dir\\OpenMPCheckVersion.cpp.obj  /out:cmTC_024bb.exe /implib:cmTC_024bb.lib /pdb:cmTC_024bb.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:80 (check_sse)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt:242 (include)"
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
+    checks:
+      - "Performing Test HAS_AVX_1"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-tkn3cx"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-tkn3cx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "HAS_AVX_1_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-tkn3cx'
+        
+        Run Build Command(s): "D:/CLion 2025.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_10c22
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\cl.exe  /nologo -DHAS_AVX_1  /DWIN32 /D_WINDOWS   /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_10c22.dir\\src.c.obj /FdCMakeFiles\\cmTC_10c22.dir\\ /FS -c C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-tkn3cx\\src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\CLion 2025.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\\cmTC_10c22.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_10c22.dir\\src.c.obj  /out:cmTC_10c22.exe /implib:cmTC_10c22.lib /pdb:cmTC_10c22.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "HAS_AVX_1_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:87 (check_sse)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt:242 (include)"
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
+    checks:
+      - "Performing Test HAS_AVX2_1"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-rc4vfm"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-rc4vfm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "HAS_AVX2_1_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-rc4vfm'
+        
+        Run Build Command(s): "D:/CLion 2025.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_c4c69
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\cl.exe  /nologo -DHAS_AVX2_1  /DWIN32 /D_WINDOWS   /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_c4c69.dir\\src.c.obj /FdCMakeFiles\\cmTC_c4c69.dir\\ /FS -c C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-rc4vfm\\src.c
+        C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-rc4vfm\\src.c(8) : warning C4700: uninitialized local variable 'x' used
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\CLion 2025.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\\cmTC_c4c69.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_c4c69.dir\\src.c.obj  /out:cmTC_c4c69.exe /implib:cmTC_c4c69.lib /pdb:cmTC_c4c69.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_c4c69.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\CLion 2025.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\\cmTC_c4c69.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_c4c69.dir\\src.c.obj  /out:cmTC_c4c69.exe /implib:cmTC_c4c69.lib /pdb:cmTC_c4c69.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_c4c69.dir\\src.c.obj /out:cmTC_c4c69.exe /implib:cmTC_c4c69.lib /pdb:cmTC_c4c69.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_c4c69.dir/intermediate.manifest CMakeFiles\\cmTC_c4c69.dir/manifest.res" failed (exit code 1120) with the following output:
+        src.c.obj : error LNK2019: unresolved external symbol __mm256_extract_epi64 referenced in function _main\x0d
+        cmTC_c4c69.exe : fatal error LNK1120: 1 unresolved externals\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "HAS_AVX2_1_EXITCODE"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:87 (check_sse)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt:242 (include)"
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
+    checks:
+      - "Performing Test HAS_AVX2_2"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-zydj56"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-zydj56"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "HAS_AVX2_2_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-zydj56'
+        
+        Run Build Command(s): "D:/CLion 2025.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_154d5
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\cl.exe  /nologo -DHAS_AVX2_2  /DWIN32 /D_WINDOWS /arch:AVX2 /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_154d5.dir\\src.c.obj /FdCMakeFiles\\cmTC_154d5.dir\\ /FS -c C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-zydj56\\src.c
+        C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-zydj56\\src.c(8) : warning C4700: uninitialized local variable 'x' used
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\CLion 2025.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\\cmTC_154d5.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_154d5.dir\\src.c.obj  /out:cmTC_154d5.exe /implib:cmTC_154d5.lib /pdb:cmTC_154d5.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_154d5.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\CLion 2025.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\\cmTC_154d5.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_154d5.dir\\src.c.obj  /out:cmTC_154d5.exe /implib:cmTC_154d5.lib /pdb:cmTC_154d5.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_154d5.dir\\src.c.obj /out:cmTC_154d5.exe /implib:cmTC_154d5.lib /pdb:cmTC_154d5.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_154d5.dir/intermediate.manifest CMakeFiles\\cmTC_154d5.dir/manifest.res" failed (exit code 1120) with the following output:
+        src.c.obj : error LNK2019: unresolved external symbol __mm256_extract_epi64 referenced in function _main\x0d
+        cmTC_154d5.exe : fatal error LNK1120: 1 unresolved externals\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "HAS_AVX2_2_EXITCODE"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:88 (check_sse)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt:242 (include)"
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
+    checks:
+      - "Performing Test HAS_FMA_1"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-uzoj28"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-uzoj28"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "HAS_FMA_1_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-uzoj28'
+        
+        Run Build Command(s): "D:/CLion 2025.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_d68a2
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\cl.exe  /nologo -DHAS_FMA_1  /DWIN32 /D_WINDOWS   /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_d68a2.dir\\src.c.obj /FdCMakeFiles\\cmTC_d68a2.dir\\ /FS -c C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-uzoj28\\src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\CLion 2025.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\\cmTC_d68a2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_d68a2.dir\\src.c.obj  /out:cmTC_d68a2.exe /implib:cmTC_d68a2.lib /pdb:cmTC_d68a2.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "HAS_FMA_1_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:95 (check_sse)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt:242 (include)"
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
+    checks:
+      - "Performing Test HAS_AVX512_1"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-4dpk7c"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-4dpk7c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "HAS_AVX512_1_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-4dpk7c'
+        
+        Run Build Command(s): "D:/CLion 2025.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_585c6
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\cl.exe  /nologo -DHAS_AVX512_1  /DWIN32 /D_WINDOWS   /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_585c6.dir\\src.c.obj /FdCMakeFiles\\cmTC_585c6.dir\\ /FS -c C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-4dpk7c\\src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\CLion 2025.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\\cmTC_585c6.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_585c6.dir\\src.c.obj  /out:cmTC_585c6.exe /implib:cmTC_585c6.lib /pdb:cmTC_585c6.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "HAS_AVX512_1_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+        Illegal instruction
+      exitCode: "FAILED_TO_RUN"
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "D:/CLion 2025.2.2/bin/cmake/win/x64/share/cmake-4.0/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:61 (check_c_source_runs)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/cmake/FindSIMD.cmake:95 (check_sse)"
+      - "third_party/whisper.cpp/ggml/src/ggml-cpu/CMakeLists.txt:242 (include)"
+      - "third_party/whisper.cpp/ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
+    checks:
+      - "Performing Test HAS_AVX512_2"
+    directories:
+      source: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-x5c3ls"
+      binary: "C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-x5c3ls"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/espid/CLionProjects/SimuSub/third_party/whisper.cpp/cmake/"
+    buildResult:
+      variable: "HAS_AVX512_2_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/espid/CLionProjects/SimuSub/build-msvc-x64/CMakeFiles/CMakeScratch/TryCompile-x5c3ls'
+        
+        Run Build Command(s): "D:/CLion 2025.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_f2853
+        [1/2] C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\cl.exe  /nologo -DHAS_AVX512_2  /DWIN32 /D_WINDOWS /arch:AVX512 /Zi /Ob0 /Od /RTC1 -std:c11 -MDd /showIncludes /FoCMakeFiles\\cmTC_f2853.dir\\src.c.obj /FdCMakeFiles\\cmTC_f2853.dir\\ /FS -c C:\\Users\\espid\\CLionProjects\\SimuSub\\build-msvc-x64\\CMakeFiles\\CMakeScratch\\TryCompile-x5c3ls\\src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\CLion 2025.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1929 --intdir=CMakeFiles\\cmTC_f2853.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~2\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x86\\link.exe /nologo CMakeFiles\\cmTC_f2853.dir\\src.c.obj  /out:cmTC_f2853.exe /implib:cmTC_f2853.lib /pdb:cmTC_f2853.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "HAS_AVX512_2_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+        Illegal instruction
+      exitCode: "FAILED_TO_RUN"
+...
